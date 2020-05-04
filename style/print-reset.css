@@ -1,0 +1,109 @@
+@media print{
+	body{padding: 0 !important}
+	.navbar, .nav-tabs, .main-menu-span, .opciones, .toggleTable, footer, hr, #reporte a, #indicators{
+		display: none !important;
+	}
+	.box, .box-content, .row, .span6, form, .container-fluid, table{
+		margin: 0 !important;
+		padding: 0 !important;
+		border: none !important;
+	}
+	.container, .container-fluid {
+	    width: auto;
+	    display: block!important;
+	 }
+	.graph-container, .table-container{
+		display: block !important;
+		margin: 0 auto !important;
+	}
+	.row, form{
+		display: block;
+		width: 100% !important;
+	}
+	.table-container table{
+		margin-left: 20px;
+	}
+	canvas, iframe, div, table, form{
+		page-break-after: avoid !important;
+		page-break-before: avoid !important;
+	}
+	canvas{
+		margin: 0 auto !important;
+		page-break-inside: auto !important;
+	}
+
+	form{
+		position: absolute !important;
+		top: 0px !important;
+	}
+
+	.chart-container{
+		position: relative !important;
+		top: 100px !important;
+		margin-bottom: 100px !important;
+	}
+	#tablesorted{
+		position: relative;
+		width: 100% !important;
+		height: auto !important;
+		margin: 0 !important;
+	}
+	#tablesorted tr{
+		page-break-after: auto !important;
+	}
+	h2, h3{
+		padding-top: 50px !important;
+		text-align: center !important;
+		padding-left: 0 !important;
+	}
+
+	#AgentsSection h2, #AgentsSection h3{
+		padding: 0px !important;
+		top: 50px !important;
+		position: absolute !important;
+	}
+
+	.printable{
+		display: none !important;
+	}
+	.printable.print, form{
+		display: block !important;
+	}
+	div{
+		margin: 0 !important;
+	}
+	[class^="span"] {
+		float: none !important;
+		width: 100% !important;
+	}
+	.offset-1, .offset-2{
+		margin-left: 0px !important;
+	}
+	tfoot{
+		display:table-row-group !important;
+	}
+	tfoot.tfoot{
+		bottom: unset !important;
+		left: unset !important;
+		position: static !important;
+	}
+	.tfoot th{
+		color: #000 !important;
+		font-size: 14px !important;
+		padding: 4px !important;
+	}
+	tfoot th{
+		padding: 8px !important;
+		color: #000 !important;
+		font-size: 12px !important;
+		width: auto !important;
+	}
+	img{
+		page-break-inside: auto !important;
+		display: block !important;
+		margin: 0 auto !important;
+	}
+	a{
+		text-decoration: none;
+	}
+}

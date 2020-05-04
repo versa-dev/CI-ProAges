@@ -1,0 +1,65 @@
+/*
+
+  Author		Ulises Rodríguez
+  Site:			http://www.ulisesrodriguez.com	
+  Twitter:		https://twitter.com/#!/isc_ulises
+  Facebook:		http://www.facebook.com/ISC.Ulises
+  Github:		https://github.com/ulisesrodriguez
+  Email:		ing.ulisesrodriguez@gmail.com
+  Skype:		systemonlinesoftware
+  Location:		Guadalajara Jalisco Mexíco
+
+  	
+*/
+select {
+	background: #DFDFDF;
+	color:#636363;
+	width:100px;
+	height:40px;
+	border:none;
+	font-size:12px;
+
+}
+
+
+.added_tr td
+{
+    margin-left:-10px;
+    
+}
+
+.added_tr a
+{
+    padding-bottom: 10px;
+}
+
+.icon-arrow-up
+{
+   margin-left: -10px;
+}
+
+
+.fancybox
+{
+    text-align:center;
+    color: #696868;
+    text-decoration: none;
+}
+
+.fancybox:hover
+{
+    text-decoration: none;
+}
+/* Autocomplete: */
+	.ui-autocomplete {
+		max-height: 100px;
+		overflow-y: auto;
+		/* prevent horizontal scrollbar */
+		overflow-x: hidden;
+	}
+	/* IE 6 doesn\'t support max-height
+	 * we use height instead, but this forces the menu to always be this tall
+	 */
+	* html .ui-autocomplete {
+		height: 100px;
+	}

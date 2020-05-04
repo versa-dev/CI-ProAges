@@ -1,0 +1,34 @@
+/*
+
+  Author		Ulises Rodríguez
+  Site:			http://www.ulisesrodriguez.com	
+  Twitter:		https://twitter.com/#!/isc_ulises
+  Facebook:		http://www.facebook.com/ISC.Ulises
+  Github:		https://github.com/ulisesrodriguez
+  Email:		ing.ulisesrodriguez@gmail.com
+  Skype:		systemonlinesoftware
+  Location:		Guadalajara Jalisco Mexíco
+
+  	
+*/
+#operations-stats table,
+#operations-stats table a i, #operations-stats table a {
+	font-size: 12px;
+}
+#operations-stats table a,
+#operations-stats table a:hover {
+	text-decoration: none;
+}
+#operations-stats table td {
+	padding: 0 3px;
+}
+#left-col table tbody tr:first-child {
+	background-color: yellow;
+}
+#left-col table, #center-col table, #right-col table {
+	text-align: center;
+}
+#left-col table tbody {
+	border-bottom: 2em solid white;
+}
+

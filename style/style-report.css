@@ -1,0 +1,148 @@
+.filterstable {width:100%;}
+.filterstable th {text-align: left;}
+.tab-content {overflow: hidden;}
+.sorter.active{color: #000}
+.sortable{width: 100%; min-width: initial}
+.opciones{
+	float: right;
+}
+h2, h3{
+	text-align: center;
+	padding-left: 15px;
+	margin-top: 30px;
+}
+
+#AgentsSection h2, #AgentsSection h3, #reporte h2, #reporte h3{
+	margin-top: 10px;
+}
+.btn{
+	padding: 4px 8px;
+}
+#content i[class^="icon-"] {
+	opacity: 1;
+	font-size: 20px;
+}
+table i[class^="icon-"] {
+	font-size: 11px;
+}
+.offset-1{
+	margin-left: 8.333% !important;
+}
+.offset-2{
+	margin-left: 16.667% !important;
+}
+.tfoot{
+	background: #222;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	display: none;
+}
+
+.tfoot th{
+	padding: 8px 10px !important;
+	color: #fff !important;
+	text-align: center !important;
+	font-size: 18px !important;
+	vertical-align: middle !important;
+}
+
+.tfoot .total{
+	text-align: left !important; 
+}
+
+.row{
+	margin-left: -20px;
+}
+.span6.printable{
+	padding: 0px 25px;
+}
+#myTab > li, #myTab > li{
+	float: right;
+}
+
+#indicators{
+	margin: 15px 0px;
+	border-top: solid 5px #4faa98;
+	padding: 12px 0px;
+	background: #fdfdfd;
+}
+#indicators .indicator{
+	text-align: center;
+	font-size: 22px;
+	color: #4faa98;
+	font-weight: bold;
+}
+#indicators .indicator .title{
+	font-weight: normal;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	color: #4faa98;
+}
+.comparative{
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.comparative.positive{
+	color: #009900;
+}
+.comparative.negative{
+	color: #e50000;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    /* Force table to not be like tables anymore */
+	.no-more-tables table, 
+	.no-more-tables thead, 
+	.no-more-tables tbody, 
+	.no-more-tables th, 
+	.no-more-tables td, 
+	.no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	/*.no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}*/
+
+	.no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	.no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	.no-more-tables td:before { content: attr(data-title); }
+	.no-more-tables select{
+		width: 100% !important;
+	}
+
+}

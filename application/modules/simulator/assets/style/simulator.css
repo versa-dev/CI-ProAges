@@ -1,0 +1,197 @@
+/* CSS Document */
+/*
+
+  Author		Ulises Rodríguez
+  Site:			http://www.ulisesrodriguez.com	
+  Twitter:		https://twitter.com/#!/isc_ulises
+  Facebook:		http://www.facebook.com/ISC.Ulises
+  Github:		https://github.com/ulisesrodriguez
+  Email:		ing.ulisesrodriguez@gmail.com
+  Skype:		systemonlinesoftware
+  Location:		Guadalajara Jalisco Mexíco
+
+*/
+.bgblank{
+	background-color:#FFF;
+	text-align:center !important;
+	vertical-align:middle !important;
+	width:auto;
+}
+.bglight{
+	background-color:#EBEBEB;
+	text-align:center !important;
+	vertical-align:middle !important;
+	width:auto;
+}
+
+.bgestacionalidadlight{
+	background-color:#EBEBEB;
+	text-align:right !important;
+}
+
+.bgestacionalidadbold{
+	background-color:#C0C0C0;
+	text-align:right !important;
+}
+.bgyelowlight{
+	background-color:#FDFBBE;
+	text-align:center !important;
+}
+.bgyelowbold{
+	background-color:#FCF979;
+	text-align:center !important;
+}
+
+.bgorangelight{
+	background-color:#FEE3AB;
+	text-align:center !important;
+}
+.bgorangebold{
+	background-color:#FCC731;
+	text-align:center !important;
+}
+.bggreenlight{
+	background-color:#CBE8B3;
+	text-align:right !important;
+}
+.bggreenbold{
+	background-color:#659E3F;
+	text-align:right !important;
+}
+
+.bggreenbold div{
+	text-align:right !important;
+}
+
+.btn-save-meta{
+	color:#FFF;
+	font-size:16px;
+	background-color:#FF6D0D;
+	height:40px;
+	margin-top:-3px;
+}
+
+@media only screen and (max-width: 600px) {
+ .table{
+	 margin-left:-50px !important;
+ }
+}
+.row-fluid {
+	margin: 1.5em 0;
+}
+.smaller {
+	font-size: 0.9em;
+}
+.simulator-table {
+    border-collapse: separate;
+    border-spacing: 1px 0px;
+}
+.simulator-table thead tr th {
+	background-color: #5b9bd5;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em;
+}
+.simulator-table thead tr th:first-child {
+	background-color: transparent;
+}
+.simulator-table tfoot tr td {
+	text-align: right;
+	padding: 0.5em;
+	border-top: 1px solid #FC0;
+	border-bottom: 1px solid #FC0;
+	font-size: 1em;
+}
+.simulator-table tfoot tr td:first-child {
+	background-color: #FC0;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+}
+.simulator-table tbody tr td {
+	text-align: right;
+	padding: 0.5em;
+	border: 1px solid #5b9bd5;
+	font-size: 0.9em;
+}
+.simulator-table tbody tr td:first-child {
+	text-align: center
+}
+.simulator-row-odd td {
+	background-color: #FFFFFF;
+}
+.simulator-row-even td {
+	background-color: #deebf7;
+}
+.subtitle {
+	line-height: 1.9em;
+	font-size: 1em;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+}
+.subtitle-yellow {
+	background: #FC0;
+}
+.subtitle-orange {
+	background: #F90;
+}
+.subsubtitle {
+	border: 1px solid #00FF00;
+	text-align: center;
+	margin: -1.5em 0;
+	padding: 0.5em;
+	font-weight: bold;
+}
+.period-bottom {
+	background-color: #789;
+	line-height: 2em;
+	font-size: 1.2em;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+.right-column {
+	padding-left: 0.1em;
+	border-left: 1px solid #0000FF;
+}
+#tabs {
+	background: transparent;
+	border: none;
+}
+#tabs ul:first-child {
+	margin: -1.5em 0;
+}
+#tabs .ui-widget-header {
+	background: transparent;
+	border: none;
+}
+#tabs .ui-tabs-nav li a { 
+	font-size: 0.9em;
+	padding: 5px;
+	line-height: 1.6em;
+} 
+#tabs .ui-tabs-nav .ui-state-default {
+	background: transparent;
+	border: 1px solid #000000;
+}
+#tabs .ui-tabs-nav .ui-state-active {
+	background: transparent;
+	border: none;
+}
+#tabs .ui-tabs-nav .ui-state-default a {
+	color: #000000;
+}
+#tabs .ui-tabs-nav .ui-state-active a {
+	background-color: #0000FF;
+	border-bottom: 3px solid #0000FF;
+	color: #FFFFFF;
+}
+@media all {
+	.page-break	{ display: none; }
+}
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}

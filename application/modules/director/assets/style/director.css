@@ -1,0 +1,98 @@
+/*
+
+  Author		Ulises Rodríguez
+  Site:			http://www.ulisesrodriguez.com	
+  Twitter:		https://twitter.com/#!/isc_ulises
+  Facebook:		http://www.facebook.com/ISC.Ulises
+  Github:		https://github.com/ulisesrodriguez
+  Email:		ing.ulisesrodriguez@gmail.com
+  Skype:		systemonlinesoftware
+  Location:		Guadalajara Jalisco Mexíco
+
+  	
+*/
+/*
+select {
+	background: #DFDFDF;
+	color:#636363;
+	width:100px;
+	height:40px;
+	border:none;
+	font-size:12px;
+
+}
+
+.added_tr td
+{
+    margin-left:-10px;
+    
+}
+
+.added_tr a
+{
+    padding-bottom: 10px;
+}
+
+.icon-arrow-up
+{
+   margin-left: -10px;
+}
+
+.fancybox
+{
+    text-align:center;
+    color: #696868;
+    text-decoration: none;
+}
+
+.fancybox:hover
+{
+    text-decoration: none;
+}
+
+.efectividad{
+	width:150px;
+	height:100px;
+	text-align:center !important;
+}
+
+.efectividad  h3, .efectividad  h4, .span11 h3, .blue{
+	color:#3F8CFF !important;
+}
+
+.title{
+	color:#666666;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.value{
+	color:#666666;
+	font-size:16px;
+}
+*/
+.subpage-link {
+	color: #000000;
+	font-size: 1.1em;
+}
+.subpage-link:hover {
+	text-decoration: none;
+	color: #000000;
+}
+.subpage-link-current, .subpage-link-current:hover {
+	font-weight: bold;
+	color: #365b9d;
+}
+/*
+.btn-ramo {
+	font-size: 1.15em;
+	background: #FFFFFF;
+	border: 0;
+}
+.btn-ramo-current {
+	color: #06F;
+}
+.sales-subheader {
+	color: #365b9d;
+}
+*/

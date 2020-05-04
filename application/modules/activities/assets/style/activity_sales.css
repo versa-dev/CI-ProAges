@@ -1,0 +1,43 @@
+select {
+	background: #DFDFDF;
+	color:#636363;
+	width:100px;
+	height:40px;
+	border:none;
+	font-size:12px;
+}
+.sales-activity-results {
+	margin-left: 1em
+}
+.sales-activity-results tr th, td {
+	font-size: 12px;
+	border: 1px solid #000000;
+}
+.sales-activity-numeric {
+	text-align: right;
+	padding-right: 0.5em
+}
+.medium-grey {
+	background-color: #bfbfbf;
+}
+.light-grey {
+	background-color: #d9d9d9;
+}
+.medium-red {
+	background-color: #ff2500;
+}
+.medium-grey-body {
+	background-color: #dddac4;
+}
+.light-grey-body {
+	background-color: #eaf2dc;
+}
+.light-red-body {
+	background-color: #f4dbd9;
+}
+.light-green-body {
+	background-color: #d7e4ba;
+}
+.light-blue-body {
+	background-color: #b5dfea;
+}

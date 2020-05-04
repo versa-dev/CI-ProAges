@@ -1,0 +1,1 @@
+ALTER TABLE `payments` ADD `valid_for_report` TINYINT NOT NULL Default '1' AFTER `policy_number`;

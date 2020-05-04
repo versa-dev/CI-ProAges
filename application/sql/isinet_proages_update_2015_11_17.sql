@@ -1,0 +1,2 @@
+
+ALTER TABLE `payments` ADD `add_perc` SMALLINT NOT NULL DEFAULT 0;

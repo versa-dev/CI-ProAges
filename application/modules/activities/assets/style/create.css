@@ -1,0 +1,23 @@
+/* CSS Document */
+#week .week-highlight a {
+  background:none;
+  background-color:yellow;  
+}
+
+#container > div {
+    width: 350px;
+    display: table-cell;
+    min-width: 100px;
+}
+
+#left {
+	min-width: 50px;
+}
+
+#middle {
+	width: 50px;
+}
+
+#right {
+	min-width: 50px;
+}

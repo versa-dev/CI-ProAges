@@ -1,0 +1,1 @@
+INSERT INTO `actions` (`id`, `name`, `label`, `last_updated`, `date`) VALUES (15, 'Actividades de ventas', '', '2014-06-27 15:57:01', '2014-06-27 15:57:01');
